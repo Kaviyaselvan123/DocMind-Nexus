@@ -1,0 +1,21 @@
+EMPLOYMENT AGREEMENT
+Between: DocMind AI Inc. and Candidate: Dr. Julian Sterling
+Position: Principal Machine Learning Architect
+
+1. COMMENCEMENT & DUTIES
+Employee shall serve as Principal Architect leading MCP agent tooling, retrieval augmented generation, and vector database scaling.
+
+2. COMPENSATION & BENEFITS
+- Base Salary: $240,000 per annum, payable semi-monthly.
+- Equity Grant: 50,000 Stock Options vesting over 4 years with a 1-year cliff.
+- Paid Time Off (PTO): 25 days annual leave plus standard statutory holidays.
+
+3. INTELLECTUAL PROPERTY ASSIGNMENT
+All inventions, model architectures, tool wrappers, and code authored during employment shall belong exclusively to DocMind AI Inc.
+
+4. NON-SOLICITATION
+For twelve (12) months following termination, employee shall not directly solicit clients or coworkers.
+
+STATUS: OFFER ISSUED — AWAITING CANDIDATE COUNTER-SIGNATURE
+Signed by: HR Operations Director
+Candidate Signature: [UNSIGNED — AWAITING COUNTER-SIGNATURE]

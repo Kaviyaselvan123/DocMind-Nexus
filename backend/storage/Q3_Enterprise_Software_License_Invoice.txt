@@ -1,0 +1,19 @@
+INVOICE: INV-2026-0891
+Vendor: Datastream Systems International
+Bill To: DocMind Enterprise Finance Dept.
+Date of Issue: February 10, 2026
+Due Date: March 12, 2026
+
+ITEMIZED CHARGES:
+1. Enterprise ChromaDB Vector Cluster (Q3 License): $18,500.00
+2. MCP Gateway Proxy Bandwidth (10M requests): $4,200.00
+3. Dedicated Claude Agent Ingestion Workers (5 Nodes): $15,300.00
+4. Support & Maintenance (Net-30 Tier): $2,000.00
+
+SUBTOTAL: $40,000.00
+TAX (8.25%): $3,300.00
+TOTAL AMOUNT DUE: $43,300.00
+
+Payment Remittance: Wire transfer to Wells Fargo Account #98234-1029, Routing #121000358.
+Authorized by: Billing Dept, Datastream Systems
+/s/ Datastream Financial Ops

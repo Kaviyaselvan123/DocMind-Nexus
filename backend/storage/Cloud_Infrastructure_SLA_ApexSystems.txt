@@ -1,0 +1,23 @@
+SERVICE LEVEL AGREEMENT (SLA) — CLOUD RUNTIME
+Vendor: Apex Cloud Infrastructure Ltd.
+Client: DocMind Enterprise
+
+1. AVAILABILITY COMMITMENT
+Apex guarantees an Monthly Uptime Percentage of at least 99.95% for compute instances, vector search clusters, and database endpoints.
+
+2. PENALTIES & SERVICE CREDITS
+- Uptime < 99.95% but >= 99.0%: 10% Service Credit.
+- Uptime < 99.0% but >= 95.0%: 25% Service Credit.
+- Uptime < 95.0%: 50% Service Credit applied to next billing cycle.
+
+3. INCIDENT RESPONSE TIERS
+- Severity 1 (Critical Outage): Initial response within 15 minutes. 24/7 engineering escalation.
+- Severity 2 (Major Degradation): Initial response within 1 hour.
+- Severity 3 (Minor Ticket): Initial response within 8 business hours.
+
+4. BACKUP & DISASTER RECOVERY
+Automated snapshot backups every 6 hours with Recovery Point Objective (RPO) of 6 hours and Recovery Time Objective (RTO) of 1 hour.
+
+SIGNATURES:
+Authorized Signatory: David Kim, Chief Infrastructure Officer, Apex Systems
+/s/ David Kim

@@ -1,0 +1,22 @@
+MUTUAL NON-DISCLOSURE AGREEMENT (NDA)
+Parties: DocMind AI Labs & TechFlow Systems Ltd.
+Effective Date: March 25, 2025.
+Expiration Date: March 25, 2026.
+
+1. PURPOSE
+The parties wish to explore a strategic collaboration regarding Model Context Protocol (MCP) server federation and enterprise document indexing.
+
+2. CONFIDENTIAL INFORMATION
+"Confidential Information" encompasses proprietary source code, vector embedding strategies, customer metadata, and technical schematics.
+
+3. TERM AND EXPIRATION
+This Agreement expires on March 25, 2026. Upon expiration, all proprietary information must be returned or certified destroyed within 10 business days.
+
+4. GOVERNING LAW
+This agreement is governed by the laws of the State of Delaware.
+
+SIGNATURES:
+Signed by: Marcus Vance, CEO, TechFlow Systems Ltd.
+Signed by: Sarah Lin, Head of Legal, DocMind AI
+/s/ Marcus Vance
+/s/ Sarah Lin

@@ -1,0 +1,154 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "IBM Plex Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  --font-mono: "IBM Plex Mono", monospace;
+}
+
+/* ==========================================================================
+   DOCMIND NEXUS — ENTERPRISE OPERATIONS DESIGN SYSTEM
+   Strictly ZERO Blue, ZERO Violet, ZERO Indigo, ZERO Purple.
+   Theme: High-Tech Obsidian Titanium & Industrial Amber Gold / Cyber Jade
+   ========================================================================== */
+
+:root {
+  --app-bg: #F8F9FA;
+  --app-sidebar: #F0F2F5;
+  --app-surface: #FFFFFF;
+  --app-surface-hover: #F3F4F6;
+  --app-surface-active: #E5E7EB;
+
+  /* Industrial Amber Brand Accent */
+  --app-primary: #D97706;
+  --app-primary-hover: #B45309;
+  --app-primary-subtle: rgba(217, 119, 6, 0.12);
+  --app-primary-contrast: #FFFFFF;
+
+  /* Secondary Accents */
+  --app-secondary: #059669;
+  --app-secondary-subtle: rgba(5, 150, 105, 0.12);
+  --app-danger: #DC2626;
+  --app-warning: #D97706;
+
+  /* Text */
+  --app-text: #111827;
+  --app-text-muted: #4B5563;
+  --app-text-subtle: #9CA3AF;
+
+  /* Hairline Borders */
+  --app-border: #E5E7EB;
+  --app-border-highlight: #D1D5DB;
+  --app-border-focus: rgba(217, 119, 6, 0.5);
+
+  /* Subtle technical grid overlay */
+  --app-grid: rgba(17, 24, 39, 0.03);
+
+  /* Compatibility mappings for legacy variables */
+  --claude-bg: var(--app-bg);
+  --claude-sidebar: var(--app-sidebar);
+  --claude-surface: var(--app-surface);
+  --claude-surface-hover: var(--app-surface-hover);
+  --claude-surface-active: var(--app-surface-active);
+  --claude-coral: var(--app-primary);
+  --claude-coral-hover: var(--app-primary-hover);
+  --claude-moss: var(--app-secondary);
+  --claude-amber: var(--app-warning);
+  --claude-text: var(--app-text);
+  --claude-text-muted: var(--app-text-muted);
+  --claude-text-subtle: var(--app-text-subtle);
+  --claude-border: var(--app-border);
+  --claude-border-hover: var(--app-border-highlight);
+
+  font-family: "IBM Plex Sans", sans-serif;
+  background-color: var(--app-bg);
+  color: var(--app-text);
+}
+
+:root.dark {
+  --app-bg: #0A0C0E;
+  --app-sidebar: #101316;
+  --app-surface: #14181C;
+  --app-surface-hover: #1C2127;
+  --app-surface-active: #242B33;
+
+  /* Industrial Amber in Dark Mode */
+  --app-primary: #F59E0B;
+  --app-primary-hover: #FBBF24;
+  --app-primary-subtle: rgba(245, 158, 11, 0.15);
+  --app-primary-contrast: #0A0C0E;
+
+  --app-secondary: #10B981;
+  --app-secondary-subtle: rgba(16, 185, 129, 0.15);
+  --app-danger: #EF4444;
+  --app-warning: #F59E0B;
+
+  /* Text */
+  --app-text: #F3F4F6;
+  --app-text-muted: #9CA3AF;
+  --app-text-subtle: #6B7280;
+
+  /* Borders */
+  --app-border: #222830;
+  --app-border-highlight: #323A46;
+  --app-border-focus: rgba(245, 158, 11, 0.5);
+
+  --app-grid: rgba(243, 244, 246, 0.03);
+
+  /* Dark Compatibility mappings */
+  --claude-bg: var(--app-bg);
+  --claude-sidebar: var(--app-sidebar);
+  --claude-surface: var(--app-surface);
+  --claude-surface-hover: var(--app-surface-hover);
+  --claude-surface-active: var(--app-surface-active);
+  --claude-coral: var(--app-primary);
+  --claude-coral-hover: var(--app-primary-hover);
+  --claude-moss: var(--app-secondary);
+  --claude-amber: var(--app-warning);
+  --claude-text: var(--app-text);
+  --claude-text-muted: var(--app-text-muted);
+  --claude-text-subtle: var(--app-text-subtle);
+  --claude-border: var(--app-border);
+  --claude-border-hover: var(--app-border-highlight);
+
+  background-color: var(--app-bg);
+  color: var(--app-text);
+}
+
+/* Technical grid canvas */
+.enterprise-grid {
+  background-image: linear-gradient(to right, var(--app-grid) 1px, transparent 1px),
+                    linear-gradient(to bottom, var(--app-grid) 1px, transparent 1px);
+  background-size: 32px 32px;
+}
+
+/* Professional Precision Scrollbar */
+::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: var(--app-border);
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: var(--app-primary);
+}
+
+/* Monospace technical styles */
+.font-mono-code {
+  font-family: "IBM Plex Mono", monospace;
+}
+
+/* Precision Enterprise Cards */
+.enterprise-card {
+  background: var(--app-surface);
+  border: 1px solid var(--app-border);
+  border-radius: 8px;
+  transition: border-color 0.15s ease, box-shadow 0.15s ease;
+}
+.enterprise-card:hover {
+  border-color: var(--app-border-highlight);
+}

@@ -1,0 +1,25 @@
+MASTER SERVICES AGREEMENT (MSA)
+Between: Acme Innovations Inc. ("Client") and NovaSoft Technologies LLC ("Provider").
+Effective Date: January 15, 2026.
+Expiration Date: January 15, 2027.
+
+1. SCOPE OF SERVICES
+Provider shall deliver cloud architecture consulting, custom AI document pipelines, and dedicated site reliability engineering as described in Statements of Work.
+
+2. PAYMENT TERMS & SCHEDULE
+All invoices are payable Net-30 from date of invoice. Late payments shall accrue interest at 1.5% per month or the maximum rate permitted by law. In the event of billing disputes, Client must notify Provider in writing within 15 calendar days.
+
+3. CONFIDENTIALITY & DATA PROTECTION
+Both parties agree to protect proprietary data using industry-standard AES-256 encryption. Client data shall not be retained or used for external model training.
+
+4. LIMITATION OF LIABILITY
+Neither party's aggregate liability under this Agreement shall exceed the total fees paid by Client in the preceding twelve (12) month period, excluding breaches of confidentiality and gross negligence.
+
+5. TERMINATION
+Either party may terminate this Agreement without cause upon sixty (60) days prior written notice.
+
+SIGNATURES:
+Signed by: Arthur Pendelton, Chief Technology Officer, Acme Innovations Inc.
+Authorized Signatory: Elena Rostova, VP Enterprise Sales, NovaSoft Technologies LLC
+/s/ Arthur Pendelton
+/s/ Elena Rostova
